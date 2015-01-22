@@ -1,3 +1,22 @@
-<h2 id='title'>Welcome to Ember.js</h2>
+<h2 id='title'>Input mask demo</h2>
 
-{{outlet}}
+<div class='mask-demo'>
+  <div class='mask-demo-desc'>
+    No initial value:
+  </div>
+
+  {{input-mask
+    mask='mm/dd/yyyy'
+    placeholder='MM/DD/YYYY'}}
+</div>
+
+<div class='mask-demo'>
+  <div class='mask-demo-desc'>
+    Initial value of today:
+  </div>
+
+  {{input-mask
+    value=bornOn
+    mask='mm/dd/yyyy'
+    placeholder='MM/DD/YYYY'}}
+</div>
