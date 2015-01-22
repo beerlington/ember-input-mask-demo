@@ -1,4 +1,6 @@
-# Inputmask
+# Ember jquery.inputmask Demo Application
+
+![](public/images/input-mask-demo.gif)
 
 This README outlines the details of collaborating on this Ember application.
 
